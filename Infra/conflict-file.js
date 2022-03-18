@@ -1,7 +1,12 @@
-// Default File
+'use strict';
 
 // Main stay code
 console.log('Hello World!');
+
+// App2 Func
+const funcOne = () => {
+    console.log('This is funcOne');
+}
 
 // App 3 Func
 const funcThree = () => {
@@ -9,5 +14,6 @@ const funcThree = () => {
 };
 
 module.exports = {
+    funcOne,
     funcThree
 };
