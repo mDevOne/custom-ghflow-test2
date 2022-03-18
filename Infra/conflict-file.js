@@ -8,6 +8,12 @@ const funcOne = () => {
     console.log('This is funcOne');
 }
 
+// App 3 Func
+const funcThree = () => {
+    console.log('This is funcThree');
+};
+
 module.exports = {
-    funcOne
+    funcOne,
+    funcThree
 };
